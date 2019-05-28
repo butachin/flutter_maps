@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.butachin.flutter_maps">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -11,7 +14,7 @@
         android:label="flutter_maps"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCceirI7TPVBoBBE32oqT6fbqcJa2zImdI"/>
+            android:value="AIzaSyAjaf8_pbi4m51riuYr4FoCpDh1hXzn-nI"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -1,5 +1,7 @@
 #include "AppDelegate.h"
 #include "GeneratedPluginRegistrant.h"
+// Add the GoogleMaps import.
+#import "GoogleMaps/GoogleMaps.h"
 
 @implementation AppDelegate
 

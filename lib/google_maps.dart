@@ -39,8 +39,8 @@ class _GoogleMapsState extends State<GoogleMaps> {
   @override
   Widget build(BuildContext context) {
     if (currentLocation == null) {
-      return new Center(
-        child: new CircularProgressIndicator(),
+      return Center(
+        child: CircularProgressIndicator(),
       );
     } else {
       return MaterialApp(
